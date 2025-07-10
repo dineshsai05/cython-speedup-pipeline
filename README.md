@@ -99,29 +99,31 @@ cython-speedup-pipeline/
 ├── generate_news.py           # Script to download news headlines dataset
 └── README.md                  # Documentation for project
 
-Generate Datasets
+## Generate Datasets
 This will create the CSV files in the data/ folder:
 ```
 python generate_synthetic.py
 python generate_imdb.py
 python generate_news.py
 ```
-How to Run Benchmarks
+## How to Run Benchmarks
 Run the benchmark scripts for each version below:
 
-🔹 Pure Python
+## Pure Python
+```
 python pure_python/benchmark.py
 python pure_python/benchmark_imdb.py
 python pure_python/benchmark_news.py
-
-🔹 Cython
-
+```
+## Cython
+```
 python cython_version/benchmark.py
 python cython_version/benchmark_imdb.py
 python cython_version/benchmark_news.py
-🔹 Cython + Multiprocessing
-
+```
+## Cython + Multiprocessing
+```
 python cython_version/benchmark_parallel.py
 python cython_version/benchmark_imdb_parallel.py
 python cython_version/benchmark_news_parallel.py
-
+```
