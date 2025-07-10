@@ -66,7 +66,7 @@ Since each unit of work (a headline) is **very small**, the overhead dominates �
 ---
 
 ## 🛠 Project Structure
-
+```
 cython-speedup-pipeline/
 ├── pure_python/                # Pure Python baseline implementation
 │   ├── pipeline.py             # Tokenization and processing logic (Python)
@@ -98,7 +98,7 @@ cython-speedup-pipeline/
 ├── generate_imdb.py           # Script to download IMDb dataset
 ├── generate_news.py           # Script to download news headlines dataset
 └── README.md                  # Documentation for project
-
+```
 ## Generate Datasets
 This will create the CSV files in the data/ folder:
 ```
