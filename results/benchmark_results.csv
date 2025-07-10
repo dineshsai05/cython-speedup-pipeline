@@ -1,0 +1,10 @@
+dataset,version,time
+synthetic,python,9.39
+synthetic,cython,7.34
+synthetic,cython+mp,4.49
+imdb,python,2.71
+imdb,cython,2.52
+imdb,cython+mp,2.3
+news,python,1.98
+news,cython,1.5
+news,cython+mp,1.62
